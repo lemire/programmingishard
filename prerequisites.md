@@ -1,0 +1,2 @@
+- familiarity with programming
+- familiarity with data structures and algorithms
