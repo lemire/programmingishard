@@ -5,3 +5,5 @@ LaTeX was ascii only. blabla
 Unicode fun
 
 base64
+
+regex
