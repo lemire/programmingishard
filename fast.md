@@ -108,4 +108,14 @@ K.
 - Can you write slow programs in a fast language
 
 
+prediction about performance are almost always wrong
 
+Performance is data specicific: scanning a sorted array for a value is probably faster than scanning a randomized array
+
+putting a rarely used branch into a separate code location helps with instruction cache buffering
+  
+  10x cache ratio, less memory better speed
+  
+  row-wise column-wise, random-wise
+  
+  adding/squaring vs temporaries

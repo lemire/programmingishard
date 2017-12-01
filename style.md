@@ -22,6 +22,11 @@ Though popular for a time, the use of GOTO instructions has now fallen out of fa
 
 
 
+Some languages try harder to be safe than others. C and C++ have undefined behavior. It is not as bad as it sounds as ultimately, undefined behaviors are rather the norm. Software can always run out of memory and so forth. Strange things happen.
+
+
+
+
 There are long and painful arguments about which programming style best. Invariably, these debates are tainted by the specific experience of the programmers, including what types of software they have written, and what programming style they last learned.
 
 Almost universally, programmers fall into the pattern of "falling in love" with the latest new style or technique they have learned. Often, they rush to put it to good use.
