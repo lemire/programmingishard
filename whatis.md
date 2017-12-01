@@ -33,5 +33,6 @@ the corporation world, but actually all of our lives, all our of universe,
 programmers have to become the master magicians who represent everything
 using these programming languages.
 
-
+Understanding a problem vs. programming a solution for it. Both are
+outcomes of a programmer's work.
 

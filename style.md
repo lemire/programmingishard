@@ -1,5 +1,7 @@
 # Programming language styles
 
+> The limits of language are the limits of your world. - Wittgenstein
+
 There are many programming languages. Some become fashionable while others slowly die off. It is likely that if you have some programming experience, then you have acquired a taste for the styles and languages that you prefer.
 
 Given some context, there are undeniably programming techniques that are more productive and others that are to be avoided.
