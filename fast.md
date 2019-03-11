@@ -91,7 +91,7 @@ K.
 - Cost models are usually counting the wrong things, so they are bad at predicting real-world performance. In fact, computer scientists do not even pretend that their model predicts real-world performance (they never check). Even if you did check, the statement " the running time can be bounded by a function K n log n" when n is large is not testable, falsifiable. It is a mathematical statement, not a scientific one.
 - when n grows, in practice, we often use different programs, different algorithms
 - many algorithsm with favorable cost models can be impractical, e.g., linked list
-- performance is not always due to large inputs.
+- performance problems are not always due to large inputs: you can have massive performance problems due to tasks over small inputs if they are common enough.
 - constants do matter, we are often willing to pay twice as much for a computer that runs 20% faster. Certainly, it would be easy to sell a computer that runs twice as fast at twice the cost, if everything else (e.g., power usage) remains the same.
 
 
