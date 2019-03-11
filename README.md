@@ -9,7 +9,7 @@ took notice.
 I have since decided to leave the repository public.
 
 Yet, this project not nearly ready for public consumption. It is a mess.
-It is a naive. It is boring.
+It is naive. It is boring.
 
 
 ## Preface
@@ -165,6 +165,46 @@ novelist. Writing well is hard.
 
 
 
+
+## random plan
+
+
+beyond naive theory:
+  - models lie: constant-time are not constant time, focus on the data size you have
+  - hash tables can fail you
+  - maps and sets : hash tables are not O(1), often not even close
+
+memory is hard 
+  - throughput and latency
+ - locality matters 
+  - objects consume memory: fewer objects, less memory
+
+memory is parallel, so even harder
+ - little’s law
+  - memory access is parallel, and this is limited by instruction windows, batching is good
+  - extra core/parallel code can be necessary to achieve best throughput
+
+
+Your processor can do many things *per* cycle
+  - Your processor can see in the future
+  - Unpredictable branches are bad
+  - this interacts either favorably or unfavorably with memory: linked list is bad  
+
+numbers are hard
+  - most calculators can't do 10000000000000000 + 1 = 10000000000000001
+  - floating point are difficult a*b  - a * b is not always zero, often not even close
+  - subnormal 
+  - NaN
+  - associativity
+  - two's complement: how are negative values represented?
+
+strings are hard
+  - Unicode, UTF-8, UTF-16, what is a "character", how many "characters" in your string? How do  you represent an emoticon?
+  - Sorting, hashing
+
+randomness is hard
+- generating good random numbers can be hard
+- useful algorithms: Bloom filters, reservoir sampling, Knuth's shuffle.
 
 
 
