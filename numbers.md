@@ -15,3 +15,5 @@ Multiplying by the inverse is not the same as the division https://lemire.me/blo
 
 Round off errors and the Patriot missile
 https://autarkaw.org/2008/06/02/round-off-errors-and-the-patriot-missile/
+
+https://randomascii.wordpress.com/category/floating-point/
