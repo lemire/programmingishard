@@ -4,6 +4,8 @@ story about  how I cached the scalar product between atoms
 ## Memory access and caching
 
 
+locality matters
+https://twitter.com/FPiednoel/status/1108215363450224640
 
 
 cache line
