@@ -20,4 +20,4 @@ https://randomascii.wordpress.com/category/floating-point/
 
 
 
-What does « a == b » mean6
+What does « a == b » mean?
