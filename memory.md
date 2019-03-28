@@ -18,6 +18,8 @@ why does memory run slower than CPU
 
 Ultimately limited by geometry
 
+https://en.wikipedia.org/wiki/Memory_safety
+
 ## Compression
 
 Random data is not compressible
