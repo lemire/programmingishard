@@ -120,5 +120,7 @@ putting a rarely used branch into a separate code location helps with instructio
   
   adding/squaring vs temporaries
   
+  data dependencies
+  
   unrolling: Why are unrolled loops faster?
 https://lemire.me/blog/2019/04/12/why-are-unrolled-loops-faster/
