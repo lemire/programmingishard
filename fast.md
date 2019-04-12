@@ -119,3 +119,6 @@ putting a rarely used branch into a separate code location helps with instructio
   row-wise column-wise, random-wise
   
   adding/squaring vs temporaries
+  
+  unrolling: Why are unrolled loops faster?
+https://lemire.me/blog/2019/04/12/why-are-unrolled-loops-faster/
