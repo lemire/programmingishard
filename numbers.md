@@ -21,3 +21,6 @@ https://randomascii.wordpress.com/category/floating-point/
 
 
 What does « a == b » mean?
+
+
+if a is an integer, a * -1 may not be well-defined
