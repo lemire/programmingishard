@@ -133,3 +133,13 @@ How fast is getline in C++?
 https://lemire.me/blog/2019/06/18/how-fast-is-getline-in-c/
 
 
+Nice quotes:
+Complexity theory itself is a gross estimation on reality and performance. Complexity theory tells you nothing about how fast (or slow) an algorithm is in practice: quicksort typically is faster than merge sort, despite both being O(n * log(n)).
+Heck, quicksort can be faster than radix sort in many cases. Another case: Bitonic sort is asymptotically slower at O(n * log^2(n)), but Bitonic sort lends itself to parallelism very well, so its "faster" in practice (even if its not work-efficient). So why do people use complexity analysis at all? Its completely irrelevant to determining quicksort vs mergesort vs bitonic sort! Well, simple: because its relatively easy to calculate, and relatively easy to understand. Polynomial time, and Nondeterministic Polynomial time (aka NP-complete) are both "easy" to describe and understand (for a... somewhat interesting definition of easy). At least, in the greater scope of mathematics they're concise and "simple" definitions.
+
+A great number of algorithms in Knuth's "The Art of Computer Programming" are calculated out to the precise number of assembly-language statements executed... including the constant. No "big-O" estimates involved. This deeper analysis is great to read once or twice, but read enough of it and you realize how much harder it is to think about. Complexity theory is far faster to analyze and apply to algorithms, even if its an incomplete picture. As such, emphasis should be on "ease of use" and "convenience" as opposed to any real amounts of practical rigor.
+
+The other issue: is that NP vs P is the great unsolved mathematical problem of our lifetime. So a huge amount of professors introduce the concept of NP vs P so that their students can be ready for a major mathematical debate relevant to the field.
+
+EDIT: In practical optimization, I think most people care about "Linear", "Sublinear", and "Superlinear". For example, the Painter's Algorithm for GPUs is superlinear: O(n * log(n)). But a depth-test based approach to GPU scene painting is linear: O(n). Linear is "good enough" so optimization basically stops there.
+
