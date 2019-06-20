@@ -124,3 +124,12 @@ putting a rarely used branch into a separate code location helps with instructio
   
   unrolling: Why are unrolled loops faster?
 https://lemire.me/blog/2019/04/12/why-are-unrolled-loops-faster/
+
+
+Performance speed limits
+https://travisdowns.github.io/blog/2019/06/11/speed-limits.html
+
+How fast is getline in C++?
+https://lemire.me/blog/2019/06/18/how-fast-is-getline-in-c/
+
+
