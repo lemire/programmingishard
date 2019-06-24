@@ -24,3 +24,17 @@ What does « a == b » mean?
 
 
 if a is an integer, a * -1 may not be well-defined
+
+
+
+These two differs...
+
+```
+x -= y
+x += -y
+
+
+(credit : Travis Downs)
+
+
+Integer not associative `a + (b + c)` is not `(a + b) + c`. (credit: Steve Canon)
