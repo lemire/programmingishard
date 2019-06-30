@@ -38,3 +38,6 @@ x += -y
 
 
 Integer not associative `a + (b + c)` is not `(a + b) + c`. (credit: Steve Canon)
+
+
+Whether in signed or unsigned mode, the negation is -x is ~x+1. That's because x+~x is 0xFFFFFF...FF.
