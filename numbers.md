@@ -43,3 +43,13 @@ Integer not associative `a + (b + c)` is not `(a + b) + c`. (credit: Steve Canon
 
 
 Whether in signed or unsigned mode, the negation is -x is ~x+1. That's because x+~x is 0xFFFFFF...FF.
+
+```
+function zigzag_encode(val) {
+  return (val + val) ^ (val >> 31);;
+}
+
+function zigzag_decode(val) {
+  return  (val >> 1) ^ (- (val & 1));
+}
+```
