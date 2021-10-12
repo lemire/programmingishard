@@ -12,3 +12,5 @@ The computer is the algorithm. You cannot abstract away the computer.
 Big O. In practice, what does it mean? The n is usually fixed and always bounded. Taking n to infinity is properly absurd.
 
 Let us focus on the range of cases we have. Engineering is about knowing your constraints.
+
+Using a better algorithm and making better use of the hardware go hand in hand.
