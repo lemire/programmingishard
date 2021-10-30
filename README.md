@@ -1,5 +1,7 @@
 # programmingishard
 
+Current status: a book project is ongoing but this repository will not be updated in the short term.
+
 ## Message to random visitors :
 
 Ultimately, I plan for this GitHub repository to turn into a "book".
